@@ -64,6 +64,44 @@
   margin-top: 6%;
 }
 
+form input {
+  display: block;
+  margin-top: 6%;
+  width: 64%;
+  padding: 2%;
+}
+
+.field {
+  margin-top: 8%;
+  margin-right: 36%;
+  text-align: right;
+}
+
+.submit {
+  background-color: #8e98ff;
+  border: none;
+  color: white;
+  padding: 2% 15%;
+  margin-top: 5%;
+}
+
+.list-group-item {
+  border-right: none;
+  background-color: #f8f9fa;
+  padding: 6%;
+}
+
+.list-group-item.active {
+  background-color: #fff;
+  color: #7a80ff;
+  border-color: rgb(0 0 0 / 13%) rgb(0 0 0 / 13%) rgb(0 0 0 / 13%) #7a80ef;
+  border-width: 2px 2px 2px 5px;
+}
+
+.list-group {
+  border-radius: 0px;
+  margin-top: 15%;
+}
 /* Slider */
 
 .slick-slide {
