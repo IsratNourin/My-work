@@ -182,6 +182,7 @@ form input {
 .client-section p {
   width: 52%;
   margin-left: 25%;
+  margin-bottom: 68px;
 }
 
 footer {
@@ -256,6 +257,49 @@ footer button {
   color: #888;
   text-decoration: none;
 }
+
+.blue-box {
+  width: 100%;
+  height: 50px;
+  background-color: #8f98ff;
+}
+
+/* CIRCLE */
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.circle-box img {
+  animation: rotation 15s infinite linear;
+  position: relative;
+  left: 22%;
+}
+
+/* .circle-box {
+  background-color: #b0b4ff;
+  border-radius: 50vmin;
+  height: 304px;
+  width: 304px;
+}
+*/
+
+.circle-box p {
+  color: #1e2f97;
+  position: relative;
+  top: -50%;
+  font-size: 24px;
+  width: 18%;
+  text-align: center;
+  left: 40%;
+  font-weight: 500;
+}
+
 /* Slider */
 
 .slick-slide {
