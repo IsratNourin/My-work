@@ -4,6 +4,13 @@
   margin-left: 3%;
 }
 
+.language {
+  position: relative;
+  left: 50%;
+  top: 7%;
+  color: #888;
+}
+
 .login {
   text-decoration: none;
   position: relative;
@@ -17,10 +24,25 @@
   color: white;
 }
 
-.services {
-  background-image: url("https://via.placeholder.com/728x400.png");
+.banner {
+  background-image: url("images/banner2.jpg");
   color: white;
   margin-top: 6%;
+}
+
+.services h4 {
+  padding-top: 7%;
+}
+
+.services h2 {
+  margin-top: 2%;
+  width: 25%;
+}
+
+.services p {
+  margin-top: 2%;
+  margin-bottom: 14%;
+  width: 32%;
 }
 
 .work {
@@ -85,22 +107,70 @@ form input {
   margin-top: 5%;
 }
 
-.list-group-item {
+.service-item {
   border-right: none;
   background-color: #f8f9fa;
   padding: 6%;
 }
 
-.list-group-item.active {
+.service-item.active {
   background-color: #fff;
   color: #7a80ff;
   border-color: rgb(0 0 0 / 13%) rgb(0 0 0 / 13%) rgb(0 0 0 / 13%) #7a80ef;
   border-width: 2px 2px 2px 5px;
 }
 
-.list-group {
+.service-group {
   border-radius: 0px;
   margin-top: 15%;
+}
+
+.main-group-item {
+  border: none;
+  background-color: white;
+  line-height: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #888;
+}
+
+.main-group-item.active {
+  color: #000;
+  background-color: white;
+  border-left: 3px solid #7a80ef;
+}
+
+.main-group {
+  border-radius: 0px;
+  margin-top: 26%;
+}
+
+.main-tab {
+  width: 74%;
+  margin-top: 10%;
+}
+
+.card-section {
+  margin-top: 5%;
+}
+
+.global-reach {
+  margin-top: 5%;
+}
+
+.global-section-left img {
+  max-width: 100%;
+}
+
+.client-section {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.client-section p {
+  width: 52%;
+  margin-left: 25%;
 }
 /* Slider */
 

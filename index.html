@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link href="index.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -30,6 +31,7 @@
 
             </div>
             <div class="col-2">
+                <a href="#" class="language"><i class="fas fa-globe"></i></a>
                 <a href="#log in" class="login">LOG IN</a>
             </div>
 
@@ -37,30 +39,75 @@
                 <button class="contact">CONTACT SALES</button>
             </div>
         </div>
-
-
-        <div class="row">
-            <div class="col">
-                <div class="services">
-                    <p style="color:rgb(42, 172, 189);">services & benefits</p>
-                    <h2>The future of hiring</h2>
-                    <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod tempor.</p>
+    </div>
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="services">
+                        <h4 style="color:rgb(42, 172, 189);">services & benefits</h4>
+                        <h2>The future of hiring</h2>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod tempor.</p>
+                    </div>
                 </div>
             </div>
         </div>
-
+    </section>
+    <div class="container">
         <div class="row">
             <div class="col-6">
-                <h2>Ideas to action every project.</h2>
-                <p>In publishing and graphic design, Lorem ipsum is a
-                    placeholder text commonly used to demonstrate the visual.Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
-                    dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor. </p>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-idea" role="tabpanel"
+                        aria-labelledby="list-home-list">
+                        <div class="main-tab">
+                            <h2>Ideas to action every project.</h2>
+                            <p>In publishing and graphic design, Lorem ipsum is a
+                                placeholder text commonly used to demonstrate the visual.Lorem
+                                ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor. </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-connect" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="main-tab">
+                            <h2>Connect.</h2>
+                            <p>In publishing and graphic design, Lorem ipsum is a
+                                placeholder text commonly used to demonstrate the visual.Lorem
+                                ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor. </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-governance" role="tabpanel"
+                        aria-labelledby="list-messages-list">
+                        <div class="main-tab">
+                            <h2>e-Governance</h2>
+                            <p>In publishing and graphic design, Lorem ipsum is a
+                                placeholder text commonly used to demonstrate the visual.Lorem
+                                ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor. </p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="col-6">
+                <div class="list-group main-group" id="main-tab" role="tablist">
+                    <a class="list-group-item main-group-item list-group-item-action active" id="list-home-list"
+                        data-bs-toggle="list" href="#list-idea" role="tab" aria-controls="list-home">1. mind Maps</a>
+                    <a class="list-group-item main-group-item list-group-item-action" id="list-profile-list"
+                        data-bs-toggle="list" href="#list-connect" role="tab" aria-controls="list-profile">2.
+                        connect</a>
+                    <a class="list-group-item main-group-item list-group-item-action" id="list-messages-list"
+                        data-bs-toggle="list" href="#list-governance" role="tab" aria-controls="list-messages">3.
+                        e-governance</a>
+                </div>
+            </div>
+
+
         </div>
 
-        <div class="row">
+        <div class="row card-section">
             <div class="col">
                 <h4 class="text-center">How it works </h4>
 
@@ -82,12 +129,15 @@
                 <div class="card card-1">
                     <h4 class="text-center">Apply</h4>
                     <p>Contact Edge and let’s discuss your project needs</p>
+                    <p><i class="far fa-arrow-alt-circle-right"></i> More info </p>
+
                 </div>
             </div>
             <div class="col-3">
                 <div class="card card-2">
                     <h4 class="text-center">Get Approved</h4>
                     <p>Select the freelancer you want to work with</p>
+                    <p><i class="far fa-arrow-alt-circle-right"></i> More info </p>
                 </div>
 
             </div>
@@ -95,6 +145,8 @@
                 <div class="card card-3">
                     <h4 class="text-center">Pay</h4>
                     <p>Agree project milestones deliverable & payment</p>
+                    <p><i class="far fa-arrow-alt-circle-right"></i> More info </p>
+
                 </div>
 
             </div>
@@ -102,6 +154,8 @@
                 <div class="card card-4">
                     <h4 class="text-center">Start</h4>
                     <p>Keep your project on track & communicate with ease</p>
+                    <p><i class="far fa-arrow-alt-circle-right"></i> More info </p>
+
                 </div>
 
             </div>
@@ -109,7 +163,9 @@
 
         <div class="row">
             <div class="col">
-                <p class="text-center compliance">Got a question on compliance? </p>
+                <p class="text-center compliance"><i class="far fa-arrow-alt-circle-right"></i> Got a question on
+                    compliance? </p>
+
             </div>
         </div>
 
@@ -120,15 +176,16 @@
         </div>
         <div class="row">
             <div class="col-4">
-                <div class="list-group" id="list-tab" role="tablist">
-                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
-                        href="#list-home" role="tab" aria-controls="list-home">Services</a>
-                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
-                        href="#list-profile" role="tab" aria-controls="list-profile">Benefits</a>
-                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
-                        href="#list-messages" role="tab" aria-controls="list-messages">Community</a>
-                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
-                        href="#list-settings" role="tab" aria-controls="list-settings">Grow</a>
+                <div class="list-group service-group" id="list-tab" role="tablist">
+                    <a class="list-group-item service-item list-group-item-action active" id="list-home-list"
+                        data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Services</a>
+                    <a class="list-group-item service-item list-group-item-action" id="list-profile-list"
+                        data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Benefits</a>
+                    <a class="list-group-item service-item list-group-item-action" id="list-messages-list"
+                        data-bs-toggle="list" href="#list-messages" role="tab"
+                        aria-controls="list-messages">Community</a>
+                    <a class="list-group-item service-item list-group-item-action" id="list-settings-list"
+                        data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Grow</a>
                 </div>
             </div>
             <div class="col-8">
@@ -212,22 +269,111 @@
         </div>
 
 
-        <div class="row">
-            <div class="col-6">
-
-
-                <div class="img2"><img src="images/image1.jpg"></div>
-
+        <section class="global-reach">
+            <div class="row">
+                <div class="col">
+                    <div class="list-group list-group-horizontal" id="global-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list"
+                            data-bs-toggle="list" href="#list-global-1" role="tab" aria-controls="list-home">
+                            <i class="far fa-clock"></i>
+                            <p>Global Reach</p>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                            href="#list-global-2" role="tab" aria-controls="list-profile">
+                            <i class="far fa-clock"></i>
+                            <p>Global Reach</p>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                            href="#list-global-3" role="tab" aria-controls="list-messages">
+                            <i class="far fa-clock"></i>
+                            <p>Global Reach</p>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                            href="#list-global-4" role="tab" aria-controls="list-settings">
+                            <i class="far fa-clock"></i>
+                            <p>Global Reach</p>
+                        </a>
+                    </div>
+                </div>
             </div>
+            <div class="row">
+                <div class="col">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-global-1" role="tabpanel"
+                            aria-labelledby="list-home-list">
+                            <div class="row">
+                                <div class="col global-section-left">
+                                    <img src="images/image1.jpg" alt="">
+                                </div>
+                                <div class="col global-section-right">
+                                    <h3>Global Reach</h3>
+                                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used
+                                        to demonstrate the visual. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <a href="#">View our services brochure</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-global-2" role="tabpanel"
+                            aria-labelledby="list-profile-list">
+                            <div class="row">
+                                <div class="col global-section-left">
+                                    <img src="images/image1.jpg" alt="">
+                                </div>
+                                <div class="col global-section-right">
+                                    <h3>Global Reach</h3>
+                                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used
+                                        to demonstrate the visual. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <a href="#">View our services brochure</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-global-3" role="tabpanel"
+                            aria-labelledby="list-messages-list">
+                            <div class="row">
+                                <div class="col global-section-left">
+                                    <img src="images/image1.jpg" alt="">
+                                </div>
+                                <div class="col global-section-right">
+                                    <h3>Global Reach</h3>
+                                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used
+                                        to demonstrate the visual. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <a href="#">View our services brochure</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-global-4" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            <div class="row">
+                                <div class="col global-section-left">
+                                    <img src="images/image1.jpg" alt="">
+                                </div>
+                                <div class="col global-section-right">
+                                    <h3>Global Reach</h3>
+                                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used
+                                        to demonstrate the visual. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <a href="#">View our services brochure</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <div class="col-6">
-                <h3>Global reach</h3>
-                <br>
-                <br>
-                <p>
-
-                </p>
-
+        <div class="row justify-content-center client-section">
+            <div class="col-auto">
+                <h3 class="text-center">Our Clients</h3>
+                <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the
+                    industry's standard dummy text ever since the 1500s</p>
             </div>
         </div>
 
@@ -291,6 +437,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
     <script src="index.js"></script>
 
 </body>
