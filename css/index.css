@@ -35,7 +35,7 @@
 }
 
 .banner {
-  background-image: url("images/banner2.jpg");
+  background-image: url("../images/banner2.jpg");
   color: white;
   margin-top: 6%;
 }
@@ -44,7 +44,7 @@
   padding-top: 7%;
 }
 
-.services h2 {
+.services h1 {
   margin-top: 2%;
   width: 25%;
 }
@@ -174,7 +174,7 @@ form input {
 
 .global-detail {
   margin-top: 8%;
-  margin-left: 5%;
+  padding-left: 5%;
 }
 
 .global-section-left img {
@@ -217,7 +217,7 @@ form input {
 
 .client-section {
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .client-section p {
@@ -314,6 +314,18 @@ footer button {
   background-color: #8f98ff;
 }
 
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+  background-color: white;
+}
+
+.card a,
+.compliance a,
+.book-session {
+  text-decoration: none;
+  color: #000;
+}
+
 /* CIRCLE */
 
 @keyframes rotation {
@@ -328,7 +340,8 @@ footer button {
 .circle-box img {
   animation: rotation 15s infinite linear;
   position: relative;
-  left: 22%;
+  left: 30%;
+  width: 40%;
 }
 
 /* .circle-box {
@@ -342,11 +355,11 @@ footer button {
 .circle-box p {
   color: #1e2f97;
   position: relative;
-  top: -50%;
+  top: -48%;
   font-size: 24px;
   width: 18%;
   text-align: center;
-  left: 40%;
+  left: 41%;
   font-weight: 500;
 }
 

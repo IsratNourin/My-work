@@ -1,0 +1,103 @@
+@media (max-width: 321px) {
+  .navigation a {
+    font-size: 10px;
+  }
+
+  .card {
+    margin-left: 0;
+  }
+
+  .services h4,
+  .services h1,
+  .services p,
+  .main-tab,
+  .main-tab h2,
+  .main-tab p,
+  .main-group a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .circle-box img {
+    width: 65%;
+  }
+
+  .circle-box p {
+    font-size: 10px;
+    left: 44%;
+    top: -48%;
+  }
+}
+
+@media (max-width: 426px) and (min-width: 321px) {
+  .navigation a {
+    font-size: 10px;
+  }
+
+  .card {
+    margin-left: 0;
+  }
+
+  .services h4,
+  .services h2,
+  .services p,
+  .main-tab,
+  .main-tab h2,
+  .main-tab p,
+  .main-group a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .circle-box img {
+    width: 65%;
+  }
+
+  .circle-box p {
+    font-size: 14px;
+    left: 44%;
+    top: -48%;
+  }
+}
+
+@media (max-width: 769px) and (min-width: 426px) {
+  .circle-box img {
+    width: 65%;
+  }
+
+  .circle-box p {
+    font-size: 14px;
+    left: 44%;
+    top: -48%;
+  }
+
+  .global-detail {
+    margin-left: 0;
+  }
+
+  .navigation a {
+    font-size: 11px;
+  }
+
+  .language {
+    left: 0;
+  }
+
+  .login {
+    left: 0;
+  }
+}
+
+@media (max-width: 1025px) and (min-width: 769px) {
+  .navigation a {
+    font-size: 14px;
+  }
+
+  .circle-box p {
+    left: 46%;
+  }
+
+  .card-2 p {
+    margin-top: 8%;
+  }
+}
